@@ -12,12 +12,14 @@ this repo is created for storing android automation code. Appium is selected as 
 
 2) add standalone selenium server jar dependencies:
   	
-	 `<dependency>`
-         	`<groupId>org.seleniumhq.selenium</groupId>`
-            	`<artifactId>selenium-java</artifactId>`
-         	`<version>2.41.0</version>`
-        `</dependency>`
+	
 
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>2.41.0</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-support</artifactId>
@@ -25,8 +27,6 @@ this repo is created for storing android automation code. Appium is selected as 
         </dependency>
         
         
-        
-
 
 
 
