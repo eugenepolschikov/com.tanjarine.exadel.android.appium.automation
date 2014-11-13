@@ -7,16 +7,16 @@ this repo is created for storing android automation code. Appium is selected as 
 
 
 1) way to start appium server: 
-E:\InstalledSW\Appium>node.exe E:\InstalledSW\Appium\node_modules\appium\bin\app
-ium.js -U UUID_of_device -p 4723 -a 127.0.0.1
+`E:\InstalledSW\Appium>node.exe E:\InstalledSW\Appium\node_modules\appium\bin\app`
+`ium.js -U UUID_of_device -p 4723 -a 127.0.0.1`
 
 2) add standalone selenium server jar dependencies:
   	
-	 <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>2.41.0</version>
-        </dependency>
+	 `<dependency>`
+         `   <groupId>org.seleniumhq.selenium</groupId>`
+            `<artifactId>selenium-java</artifactId>`
+         `   <version>2.41.0</version>`
+        `</dependency>`
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
